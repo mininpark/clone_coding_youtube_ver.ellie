@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Youtube Mobile</title>
+    <script src="https://kit.fontawesome.com/2f2d5716d5.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icon">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Videoplayer -->
+    <section class="player">
+        <video controls src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+            poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217">
+    </section>
+    <!-- Video Info -->
+    <section class="info">
+        <!--metadata-->
+        <div class="metadata">
+            <ul class="hashtag">
+                <li>#DreamCoading</li>
+                <li>#DreamCoader</li>
+                <li>#Ellie</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">Clone Coding: Youtube Mobile Website | Frontend Softwareentwickler Anfänger:
+                    HTML,
+                    CSS </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="view">1.1M views 1 month ago</span>
+        </div>
+        <!-- Actions -->
+        <div class="action">
+            <li><button class="active"><i class="fas fa-thumbs-up"></i><span>523K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>23</span></button></li>
+            <li><button><i class="fas fa-share-square"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+        </div>
+        <!--channel description-->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/profile.jpeg" alt="" srcset="" />
+                <div class="info">
+                    <span class="name"> 드림코딩 by 엘리 </span>
+                    <span class="subscriber">1.1 M Subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <!--Playlist nextvideos-->
+    <div class="infoAndUpNext">
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <!--playlist-->
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/mqdefault_6s.webp" alt=""></div>
+                    <div class="info">
+                        <span class="title"> 탁월한 개발자 공부 방법, 남들보다 앞서가는 공부법⭐️ (안드로이드앱, 아이폰개발, React 등 짧은 기간안에 지속가능한 공부법)
+                        </span>
+                        <span class="name"> 드림코딩 by 엘리 </span>
+                        <span class="view"> 조회수 1.2M </span>
+                    </div>
+                    <button class="moreBtn"> <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/mqdefault_2.webp" alt="" srcset=""></div>
+                    <div class="info">
+                        <span class="title"> CSS 레이아웃 정리 display, position 완성 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
+                        </span>
+                        <span class="name"> 드림코딩 by 엘리 </span>
+                        <span class="view"> 조회수 1.9M </span>
+                    </div>
+                    <button class="moreBtn"> <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/mqdefault_3.webp" alt="" srcset=""></div>
+                    <div class="info">
+                        <span class="title"> IT 스타트업 직장인 일상 브이로그, 프로그래머 출퇴근 일상 - 회사 책상 공개
+                        </span>
+                        <span class="name"> 드림코딩 by 엘리 </span>
+                        <span class="view"> 조회수 1.4M </span>
+                    </div>
+                    <button class="moreBtn"> <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
